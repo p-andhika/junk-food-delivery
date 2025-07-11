@@ -1,4 +1,3 @@
-import CustomInput from "@/components/custom-input";
 import { images } from "@/constans";
 import { Slot } from "expo-router";
 import {
@@ -36,16 +35,8 @@ export default function AuthLayout() {
           />
         </View>
 
-        <CustomInput
-          placeholder="Enter your email"
-          value=""
-          onChangeText={(text) => {}}
-          label="Email"
-          keyboardType="email-address"
-        />
+        <Slot />
       </ScrollView>
-
-      <Slot />
     </KeyboardAvoidingView>
   );
 }
