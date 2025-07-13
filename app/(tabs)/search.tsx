@@ -7,6 +7,8 @@ import { useLocalSearchParams } from "expo-router";
 import { useEffect } from "react";
 import { FlatList, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import MenuCard from "@/components/menu-card";
+import { MenuItem } from "@/type";
 
 const Search = () => {
   const { category, query } = useLocalSearchParams<{
@@ -45,7 +47,7 @@ const Search = () => {
                 isFirstRightColItem ? "mt-10" : "mt-0",
               )}
             >
-              <Text>Menu Card</Text>
+              <MenuCard item={item as MenuItem} />
             </View>
           );
         }}
