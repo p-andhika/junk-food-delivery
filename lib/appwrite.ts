@@ -13,7 +13,12 @@ export const appwriteConfig = {
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
   platform: "com.rn.junkfooddelivery",
   databaseId: "68708007000b7e94bd90",
+  bucketId: "6873217200202fbeab97",
   userCollectionId: "6870802b003d94f746f0",
+  categoriesCollectionId: "68731dce003272e67feb",
+  menuCollectionId: "68731e7a00119ee9142f",
+  customizationsCollectionId: "68731fa4002997ba2b39",
+  menuCustomizationCollectionId: "6873207c0018d3f66d1f",
 };
 
 export const client = new Client();
