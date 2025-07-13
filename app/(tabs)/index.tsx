@@ -52,7 +52,7 @@ export default function Index() {
                 }}
                 android_ripple={{ color: "#fffff2" }}
               >
-                {({ pressed }) => {
+                {() => {
                   return (
                     <Fragment>
                       <View className="h-full w-1/2">

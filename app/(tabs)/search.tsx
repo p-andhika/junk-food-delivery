@@ -2,7 +2,6 @@ import cn from "clsx";
 import CartButton from "@/components/cart-button";
 import { getCategories, getMenu } from "@/lib/appwrite";
 import useAppwrite from "@/lib/useAppwrite";
-import clsx from "clsx";
 import { useLocalSearchParams } from "expo-router";
 import { useEffect } from "react";
 import { FlatList, Text, View } from "react-native";
