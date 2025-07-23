@@ -16,8 +16,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+5. 🚀 [More](#more)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -108,3 +107,8 @@ npx expo start
 ```
 
 Open your ExpoGO app on your phone and scan the QR code to view the project.
+
+
+## <a name="more">🚀 More</a>
+
+https://github.com/user-attachments/assets/c4f0c423-4de9-4d26-a980-25e0bbc911a5
